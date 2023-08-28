@@ -252,7 +252,7 @@ define(['jquery'], function ($) {
                         });
 
                         let tags = dealData._embedded.tags.length === 0 ? [] : [{
-                            id: dealData.tags[0].id
+                            id: dealData._embedded.tags[0].id
                         }];
                         let success = false;
                         $.ajax({
