@@ -1,0 +1,24 @@
+{
+    "widget": {
+        "name": "widget.name",
+        "description": "widget.description",
+        "short_description": "widget.short_description",
+        "version": "1.1.88",
+        "interface_version": 4,
+        "init_once": false,
+        "locale": [
+            "ru"
+        ],
+        "installation": true
+    },
+    "locations": [
+        "lcard-1"
+    ],
+    "settings": {
+        "currency": {
+            "name": "settings.currency",
+            "type": "custom",
+            "required": false
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "widget": {
+        "name": "Виджет",
+        "short_description": "Виджет",
+        "description": "Виджет"
+    },
+    "settings": {
+        "currency": "Валюта"
+    }
+}
